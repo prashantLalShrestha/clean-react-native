@@ -1,0 +1,16 @@
+{
+  "name": "@services/domain",
+  "version": "0.0.0",
+  "private": true,
+  "main": "src",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "yarn lint --fix",
+    "test": "jest --passWithNoTests",
+    "test:watch": "yarn jest --watch",
+    "typecheck": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}
