@@ -1,3 +1,1 @@
-export default () => {
-  console.log('Hello!!');
-};
+export type { AuthRepository } from './auth';

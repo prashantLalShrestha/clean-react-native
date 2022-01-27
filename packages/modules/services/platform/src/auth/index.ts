@@ -1,0 +1,1 @@
+export { DefaultAuthRepository } from './repo';

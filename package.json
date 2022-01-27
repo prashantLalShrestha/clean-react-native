@@ -4,7 +4,8 @@
   "private": true,
   "workspaces": {
     "packages": [
-      "packages/**"
+      "packages/frontend/mobile/*",
+      "packages/modules/services/*"
     ],
     "nohoist": [
       "**/react",
@@ -12,9 +13,11 @@
       "**/react-native",
       "**/react-native/**",
       "**/react-native-codegen",
-      "**/react-native-dev-menu",
-      "**/react-native-macos",
-      "**/react-native-windows"
+      "**/@react-navigation/native",
+      "**/@react-navigation/native-stack",
+      "**/react-native-reanimated",
+      "**/react-native-safe-area-context",
+      "**/react-native-screens"
     ]
   },
   "scripts": {
@@ -27,6 +30,7 @@
     "ios:pods": "yarn workspace @mobile/app pods",
     "lint": "ultra -r lint",
     "lint:fix": "ultra -r lint:fix",
+    "res:reload": "yarn workspace @mobile/res images",
     "reset": "find . -type dir -name node_modules | xargs rm -rf && rm -rf yarn.lock",
     "test": "ultra -r test",
     "typecheck": "ultra -r typecheck"

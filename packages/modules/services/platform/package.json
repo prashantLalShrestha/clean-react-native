@@ -10,6 +10,9 @@
     "test:watch": "yarn jest --watch",
     "typecheck": "tsc"
   },
+  "dependencies": {
+    "@services/domain": "*"
+  },
   "devDependencies": {
     "typescript": "^4.5.5"
   }

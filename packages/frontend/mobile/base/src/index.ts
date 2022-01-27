@@ -1,3 +1,2 @@
-export default () => {
-  console.log('Hello world');
-};
+export * from './config';
+export * from './context';

@@ -1,5 +1,9 @@
 {
   "extends": "../../../../tsconfig.base.json",
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "useDefineForClassFields": true
+  },
   "include": [
     "src"
   ],

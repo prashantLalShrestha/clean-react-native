@@ -11,6 +11,15 @@
         "@typescript-eslint",
         "react-native"
       ],
+      "rules": {
+        "react/display-name": "off",
+        "@typescript-eslint/no-shadow": [
+          "error"
+        ],
+        "@typescript-eslint/no-inferrable-types": "off",
+        "no-shadow": "off",
+        "no-undef": "off"
+      },
       "extends": [
         "plugin:react/recommended",
         "prettier",
