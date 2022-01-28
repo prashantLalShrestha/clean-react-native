@@ -1,5 +1,5 @@
 interface AuthRepository {
-  login: () => void;
+  login: (username: string, password: string) => void;
 }
 
 export default AuthRepository;

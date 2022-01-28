@@ -1,1 +1,1 @@
-export { DefaultAuthRepository } from './auth';
+export * from './auth';

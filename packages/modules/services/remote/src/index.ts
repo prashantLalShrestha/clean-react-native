@@ -1,3 +1,1 @@
-export default () => {
-  console.log('Hello!!');
-};
+export * from './auth';

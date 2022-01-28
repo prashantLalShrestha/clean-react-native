@@ -24,7 +24,7 @@ class SplashViewModel {
   }
 
   login() {
-    this.authRepository.login();
+    this.authRepository.login('Username', 'password');
     this.count++;
   }
 }
