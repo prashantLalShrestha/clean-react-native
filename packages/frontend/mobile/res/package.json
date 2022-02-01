@@ -3,14 +3,13 @@
   "version": "0.0.0",
   "private": true,
   "main": "src",
+  "typings": "typings",
   "scripts": {
     "fonts": "node scripts/fonts.js",
     "images": "node scripts/images.js",
     "lint": "eslint .",
     "lint:fix": "yarn lint --fix",
     "reload": "yarn images && yarn fonts",
-    "test": "jest --passWithNoTests",
-    "test:watch": "yarn jest --watch",
     "typecheck": "tsc"
   },
   "devDependencies": {

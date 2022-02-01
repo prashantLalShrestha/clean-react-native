@@ -1,8 +1,16 @@
 {
   "extends": "../../../../tsconfig.base.json",
   "compilerOptions": {
-    "experimentalDecorators": true,
-    "useDefineForClassFields": true
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-native",
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true
   },
   "include": [
     "src"

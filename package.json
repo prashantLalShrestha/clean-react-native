@@ -11,20 +11,16 @@
       "**/react",
       "**/react-dom",
       "**/react-native",
+      "**/react-native-*",
       "**/react-native/**",
-      "**/react-native-codegen",
-      "**/@react-navigation/native",
-      "**/@react-navigation/native-stack",
-      "**/react-native-reanimated",
-      "**/react-native-safe-area-context",
-      "**/react-native-screens"
+      "**/@react-native-*/*",
+      "**/@react-*/*"
     ]
   },
   "scripts": {
-    "android:metro": "yarn workspace @mobile/app start",
+    "mobile:start": "yarn workspace @mobile/app start",
     "android:start": "yarn workspace @mobile/app android",
     "android:studio": "yarn workspace @mobile/app studio",
-    "ios:metro": "yarn workspace @mobile/app start",
     "ios:start": "yarn workspace @mobile/app ios",
     "ios:xcode": "yarn workspace @mobile/app xcode",
     "ios:pods": "yarn workspace @mobile/app pods",

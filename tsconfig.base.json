@@ -1,20 +1,29 @@
 {
   "compilerOptions": {
-    "allowJs": true,
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "isolatedModules": true,
-    "jsx": "react",
-    "lib": [
-      "es2017"
-    ],
+    "target": "es6",
     "module": "commonjs",
-    "moduleResolution": "node",
-    "noEmit": true,
-    "resolveJsonModule": true,
+    "lib": [
+      "dom",
+      "ES2015",
+      "dom.iterable",
+      "ES6",
+      "ES2017",
+      "ESNext.AsyncIterable",
+      "ESNext"
+    ],
+    "sourceMap": true,
+    "removeComments": true,
     "strict": true,
-    "skipLibCheck": true,
-    "target": "esnext"
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
   }
 }
